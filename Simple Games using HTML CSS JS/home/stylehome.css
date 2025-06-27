@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(to right, #fae788, #ddcaca);
+    background-image: url('/asserts/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+p {
+    font-size: 2rem;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #673ab7;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #9575cd;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
